@@ -2,15 +2,17 @@
 ![공부방표지](https://user-images.githubusercontent.com/84490050/178391502-65018af9-e17b-403f-a2b0-a30e28a7e72b.png)
 
 ## 1. 목표 
-* 풀스택 개발자 
+* 혼자 족발 맘편히 주문할 수 있는 풀스택 개발자 
 
 
-## 2. 공부하는 언어
-* HTML (80%), CSS (80%) 
-* Java (80%) 
-* Spring (50%)
-* JavaScript (50%)
-* React ( 0% ) - 시작해야함
+## 2. 사용가능 언어
+* HTML , CSS 
+* Java  
+* Spring 
+
+## 3. 공부해야 하는 언어
+* JavaScript (50%) 
+* React ( 0% ) - 시작해야함 
 * Aws ( 0% ) - 시작해야함 
 
 ## 3. 현재공부 개발환경
