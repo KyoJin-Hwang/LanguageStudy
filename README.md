@@ -1,4 +1,4 @@
-# 개인 공부방
+# 개인 스터디방
 ![공부방표지](https://user-images.githubusercontent.com/84490050/178391502-65018af9-e17b-403f-a2b0-a30e28a7e72b.png)
 
 ## 1. 목표 
