@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        // Not 연산자 ( True 의 반대 )
+
+        const num = prompt('1~10 내가 좋아하는 숫자는?');
+        const isnum = num == 7;
+        if(!isnum){
+            console.log('땡!');
+        }else{
+            console.log('정답!');
+        }
+
+
+         // OR 연산자 ( 둘중 한개만 True)
+        let name = 'Mike';
+        let age = '22';
+
+        if(name === "Mike" || age > 40){
+            console.log('통과!');
+        }else{
+            console.log('돌아가!');
+        }
+
+        // AND 연산자 ( 둘다 True)
+
+        if(name === "Mike" && age > 21){
+            console.log('통과!');
+        }else{
+            console.log('돌아가!');
+        }
+
+        // 우선순위 
+        // 남자이고, 이름이 Mike 이거나 성인이면 통과 
+
+        name = 'Jane';
+        const gender = 'F';
+        const isAdult = true;
+
+        if(gender === 'M' && name === 'Mike' || isAdult){
+            console.log(`우선순위 합격!`);
+        }else{
+            console.log(`우선순위 탈락!`);
+        }
+        
+    </script>
+</body>
+</html>

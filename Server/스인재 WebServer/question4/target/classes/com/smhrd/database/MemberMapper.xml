@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace : mapper 식별자(절대로 겹치면 안됨!) : sql을 실행하는 클래스(MemberDAO) 경로 -->
+<mapper namespace="com.smhrd.domain.MemberDAO">
+	<!-- id : 각 태그를 식별해줄 키값 -->
+	<!-- parameterType : 매개변수자리 -->
+	<!-- resultType : 반환값 -->
+	<!-- 회원가입 -->
+	<insert id="insertMember" parameterType="com.smhrd.domain.Member">
+		insert into question4(id, pw, nickname, email, tel) values(#{id}, #{pw}, #{nickname}, #{email}, #{tel})
+	</insert>
+	<select id="selectMember" resultType="com.smhrd.domain.Member" parameterType="com.smhrd.domain.Member">
+		select * from question4 where id=#{id} and pw=#{pw}
+	</select>
+	<select id="selectMemberAll" resultType="com.smhrd.domain.Member">
+		select * from question4
+	</select>
+	<update id="updateMember" parameterType="com.smhrd.domain.Member">
+		update question4 set mb_pw=#{mb_pw}, mb_nick=#{mb_nick} where mb_email=#{mb_email}
+	</update>
+	
+	
+	<!--
+	<update id="updateMember" parameterType="com.smhrd.domain.Member">
+		update web_member set pw=#{pw}, tel=#{tel}, address=#{address} where email=#{email}
+	</update>
+
+	<delete id = "deleteMember" parameterType="String">
+		 delete from web_member where email = #{email}
+	</delete> -->
+</mapper>

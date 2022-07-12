@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MessageSystem/src/main/java/com/smhrd/database/MamberMapper.xml&apos; to &apos;MemberMapper.xml&apos;" description="Rename resource &apos;MamberMapper.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/com/smhrd/database/MamberMapper.xml" name="MemberMapper.xml" stamp="1651221701533" updateReferences="true"/>
+</session>

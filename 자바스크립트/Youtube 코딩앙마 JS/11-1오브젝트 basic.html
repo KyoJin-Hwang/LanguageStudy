@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //객체 
+        const superman = {
+            name : 'Tom',
+            age : 30,
+        }
+        //조회 
+        console.log('%c --조회--', 'color : #bada55');
+        console.log(superman.name)
+        console.log(superman['age'])
+
+        //추가
+        console.log('%c --추가--', 'color : #bada55');
+        superman.haircolor = 'black';
+        superman['hobby'] = 'football';
+        
+        console.log(superman)
+
+        //삭제
+        console.log('%c --삭제--', 'color : #bada55');
+        delete superman.age;
+        console.log(superman)
+
+    </script>
+</body>
+</html>

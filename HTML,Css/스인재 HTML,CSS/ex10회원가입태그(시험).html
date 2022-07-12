@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 시험문제나옴 -->
+    <form>
+    <table width="400px">
+        <tr bgcolor="gray"  height="50px" align="left" >
+            <th colspan="2">
+                Step 1 : 아이디/비번 입력
+            </th>
+        </tr>
+        <tr bgcolor="#BDBDBD" height="35px" align="center">
+            <td align="right" width="170"> 아이디 : </td>
+            <td align="left"><input type="text"></td>
+        </tr>
+        <tr bgcolor="#BDBDBD" height="35px" align="center">
+            <td align="right" width="170"> 비밀번호 :</td>
+            <td align="left"><input type="password" name="pw" maxlength="20" ></td>
+        </tr>
+        <tr bgcolor="#BDBDBD" height="35px" align="center">
+            <td align="right" width="170"> 비밀번호 확인 : 
+            <td align="left"><input type="password" name="pw" maxlength="20" ></td>
+        </tr>
+        <tr bgcolor="gray"  height="50px" align="left" >
+            <th colspan="2">
+                Step 2 : 개인정보
+            </th>
+        </tr>
+        <tr bgcolor="#BDBDBD" height="35px" align="center">
+            <td align="right" width="170"> 성별 :</td>
+            <td align="left">
+            남<input type="radio" name="gender" value="male">
+            여<input type="radio" name="gender" value="female">
+        </tr>
+        <tr bgcolor="#BDBDBD" height="35px" align="center">
+            <td align="right" width="170"> 혈액형 :</td>
+            <td align="left">
+                <select name="" id="">
+                    <option>혈액형</option>
+                    <option value="">A형</option>
+                    <option value="">B형</option>
+                    <option value="">O형</option>
+                    <option value="">AB형</option>
+                </select>
+            </td>
+        </tr>
+        <tr tr bgcolor="#BDBDBD" height="35px" align="center">
+            <td align="right" width="170"> 생일 :</td>
+            <td align="left"><input type="date" name="date"></td>
+        </tr>
+        <tr bgcolor="gray"  height="50px" align="left" >
+            <th colspan="2">
+                Step 3 : 선호도
+            </th>
+        </tr>
+        <tr tr bgcolor="#BDBDBD" height="35px" align="center">
+            <td align="right" width="170"> 취미 :</td>
+            <td align="left">
+                축구<input type="checkbox" value="soccer" name="hobby">
+                야구<input type="checkbox" value="basketball" name="hobby">
+                농구<input type="checkbox" value="basetball" name="hobby">
+            </td>
+        </tr>
+        <tr tr bgcolor="#BDBDBD" height="35px" align="center">
+            <td align="right" width="170"> 좋아하는 색깔 :</td>
+            <td align="left"><input type="color"></td>
+        </tr>
+        <tr bgcolor="gray"  height="50px" align="left" >
+            <th colspan="2">
+                Step 4 : 하고 싶은 말
+            </th>
+        </tr>
+        <tr height="35px" align="center">
+            <td colspan="2"><textarea cols="60" rows="10"></textarea></td>
+        </tr>
+        <tr bgcolor="gray"  height="50px" align="left" >
+            <th colspan="2" align="center">
+                <input type="submit" value="제출"><input type="submit" value="초기화">
+            </th>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

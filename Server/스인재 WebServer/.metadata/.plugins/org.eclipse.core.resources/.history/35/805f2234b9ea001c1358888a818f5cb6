@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table, tr, th, td{
+        border:1px solid black;
+    }
+</style>
+<body>
+	<form action="result.jsp" method="get">
+    <table>
+        <tr>
+            <th>
+                이름
+            </th>
+            <th>
+                박병관
+            </th>
+        </tr>
+        <tr >
+            <td>좋아하는 과일</td>
+            <td>
+                사과 <input type="checkbox" value="사과" name="check1">
+                멜론 <input type="checkbox" value="멜론" name="check2">
+                수박 <input type="checkbox" value="수박" name="check3">
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: center;" colspan="2">
+            <input type="submit" name="submit" value="전송" >
+            </td>    
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

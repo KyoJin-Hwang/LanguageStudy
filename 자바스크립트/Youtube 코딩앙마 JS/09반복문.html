@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // for(초기문; 조건; 코드 실행후 작업;)
+
+        // for(let i=1; i<=10; i++){
+        //     console.log(i);
+        // }
+        
+        console.log('while')
+        let i = 1;
+        while(i < 11){
+            console.log(i)
+            i++;
+        }
+
+        while(true){
+            let answer = confirm('계속 할까요?');
+            if(!answer){
+                break;
+            }
+        }
+        console.log('continue')
+        for(let j = 0; j <= 10; j++){
+            if(j % 2 ){
+                continue;
+            }
+            console.log(j)
+        }
+
+    </script>
+</body>
+</html>

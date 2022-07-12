@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jst.servlet.ui.project.facet.WebProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.wst.web.ui"/>
+		</list>
+	</section>
+	<section name="CleanDialogSettings">
+		<item key="TOGGLE_SELECTED" value="false"/>
+		<item key="DIALOG_WIDTH" value="500"/>
+		<item key="DIALOG_HEIGHT" value="389"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\smhrd\Desktop\WebServer"/>
+			<item value="C:\Users\smhrd\Desktop\WebServer\smartwebproject_ajax오류상태"/>
+			<item value="C:\Users\smhrd\Desktop\WebServer\smartwebproject_통합요청_220524_11"/>
+			<item value="C:\Users\smhrd\Desktop\WebServer\smartwebproject"/>
+			<item value="C:\Users\smhrd\Desktop\스마트타임(back-end)"/>
+			<item value="C:\Users\smhrd\Desktop\WebServer\board"/>
+			<item value="C:\Users\smhrd\Desktop\WebServer\MessageSystem"/>
+			<item value="C:\Users\smhrd\Desktop\JavaStudy"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\smhrd\Desktop\JavaStudy_김진환(삭제금지)"/>
+			<item value="C:\Users\smhrd\Desktop\JavaStudy"/>
+			<item value="C:\Users\smhrd\Desktop\자바"/>
+			<item value="C:\Users\smhrd\Desktop\스마트타임(back-end)\황교진"/>
+			<item value="C:\Users\smhrd\Desktop\스마트타임(back-end)\funtion_hwangkyojin"/>
+			<item value="C:\Users\smhrd\Desktop\스마트타임(back-end)\기능구현_황교진"/>
+		</list>
+	</section>
+</section>
