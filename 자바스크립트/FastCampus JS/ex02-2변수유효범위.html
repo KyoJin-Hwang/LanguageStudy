@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    // 유효범위
+    console.log('%c --const,let의 유효 범위 --', 'color : #bada55');
+
+    // 블럭 
+    console.log('%c --블럭 --', 'color : #bada55');
+    {
+        //
+        const name = 'Mark';
+        console.log(name);
+    }
+    // console.log(name);  블럭밖에서 하면 안나옴
+
+    // 밖에서 안으로
+    console.log('%c --밖에서 안으로 --', 'color : #bada55');
+    let age = 37;
+    {
+        
+        age++;
+        console.log(age);
+    }
+    console.log(age);
+
+    // 중첩
+    console.log('%c --중첩 --', 'color : #bada55');
+    {
+        {
+            {
+                console.log(age);
+            }
+        }
+    }
+
+    // var의 유효범위(함수스코프) 
+    console.log('%c --var의 유효범위 --', 'color : #bada55');
+    console.log('%c --var의 out 에서 in  --', 'color : #bada55');
+    var a = 0;
+
+    (function(){
+        a++;
+        console.log(a);
+    })();
+    console.log(a);
+
+    console.log('%c --var의 in에서 out  --', 'color : #bada55');
+    {
+        var b = 2;
+        console.log(b);
+    };
+    ++b
+    console.log(++b);
+    </script>
+</body>
+</html>
