@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log('%c -- 데이터타입 --', 'color : #bada55');
+        console.log('%c Boolean', 'color : #bada55');
+        console.log('%c Null', 'color : #bada55');
+        console.log('%c Undefined', 'color : #bada55');
+        console.log('%c Number', 'color : #bada55');
+        console.log('%c String', 'color : #bada55');
+        console.log('%c Symbol', 'color : #bada55');
+        console.log('%c Objects', 'color : #bada55');
+
+        // Boolean True, False
+        console.log('%c -- Boolean --', 'color : #bada55');
+        const isTrue = true;
+        const isFalse = false;
+
+        console.log(isTrue, typeof isTrue);
+        console.log(isFalse, typeof isFalse);
+
+
+        // Null = 비어있는 값
+        console.log('%c -- Null --', 'color : #bada55');
+        const a = null;
+        console.log(a, typeof a);
+
+        // Undefined = 정해지지 않는 값
+        console.log('%c -- Undefined --', 'color : #bada55');
+        let b;
+        console.log(b, typeof b);
+        console.log(a==b)
+        if(a === b){
+            console.log( 'true? '+(a==b));
+        }
+        else{
+            console.log( 'true? '+(a===b));
+
+        }
+
+        // Number
+        
+    </script>
+</body>
+</html>
