@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 함수 먼저
+        console.log('%c -- 함수먼저 --', 'color : #bada55');
+        function hello1(){
+            console.log('hello1');
+        }
+
+        hello1();
+
+        // 함수의 호출을 먼저
+        console.log('%c -- 함수의 호출을 먼저 --', 'color : #bada55');
+        hello2();
+
+        function hello2() {
+            console.log('hello2');
+        }
+
+        // hoisting = 아래 있는 선언을(만) 끌어올리다
+        console.log('%c --  --', 'color : #bada55');
+        age = 6;
+        age++;
+        console.log(age);
+
+        var age;
+    </script>
+</body>
+</html>
